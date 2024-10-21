@@ -61,7 +61,7 @@ const VpnContainer = ({ data }: VpnContainerProps) => {
             <div className='inline-block sm:hidden w-full'>
                 <h1 className='text-center text-xl font-normal mb-4'>Best VPN for</h1>
                 <div className='w-full flex justify-center gap-8 mb-8'>
-                    <div className='w-fit h-fit'>
+                    <div className='text-center text-lg text-medium'>
                         <div className='border-[5px] border-[#9BA3A7] rounded-full w-[80px] aspect-square relative p-4 flex justify-center items-center'>
                             <img src='/icons/privacy-logo.png' alt='privacy-logo' className='w-[20px] h-auto'/>
                             <div className='border-[3px] border-[#9BA3A7] rounded-full aspect-square absolute bottom-[-15px] mx-auto bg-white p-1'>
@@ -70,7 +70,7 @@ const VpnContainer = ({ data }: VpnContainerProps) => {
                         </div>
                         <p>Privacy</p>
                     </div>
-                    <div className=''>
+                    <div className='text-center text-lg text-medium'>
                         <div className='border-[5px] border-[#9BA3A7] rounded-full w-[80px] aspect-square relative p-4 flex justify-center items-center'>
                             <img src='/icons/speed-logo.png' alt='speed-logo' className='w-[30px] h-auto'/>
                             <div className='border-[3px] border-[#9BA3A7] rounded-full aspect-square absolute bottom-[-15px] mx-auto bg-white p-1'>
