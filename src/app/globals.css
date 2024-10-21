@@ -7,10 +7,21 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ededed;
+    --foreground: #0a0a0a;
   }
 }
 
@@ -25,3 +36,74 @@ body {
     text-wrap: balance;
   }
 }
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+#timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.timer-card {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
+  border-radius: .1em;
+  font-size: 5rem;
+  width: 75px;
+  margin-right: 4px;
+}
+
+.top-card {
+  background-color: #0a0a0a;
+  position: relative;
+  color: #d4d4d4;
+  height: 0.75em;
+  line-height: 1;
+  padding: 0.25em 0.20em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top-right-radius: .1em;
+  border-top-left-radius: .1em;
+}
+
+
+.bottom-card {
+  background-color: #040404;
+  color: #cccccc;
+  height: 0.75em;
+  line-height: 1;
+  padding: 0.25em 0.20em;
+  display: flex;
+  align-items: flex-end;
+  border-top: 1px white solid;
+  border-bottom-right-radius: .1em;
+  border-bottom-left-radius: .1em;
+  overflow-y: hidden;
+}
+
+.colon {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.timer-hours {
+  margin-right: 8px;
+}
+.timer-minutes {
+  margin-right: 8px;
+}
+
+.card {
+  display: flex;
+  gap: 2px;
+}
+
