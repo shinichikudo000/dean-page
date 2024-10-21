@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VPN Design Clone
 
-## Getting Started
+This project showcases a clone of a VPN design, demonstrating the use of various technologies and libraries.
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: A React framework for building server-side rendered applications.
+- **TypeScript**: A superset of JavaScript that adds static types.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Sass**: A preprocessor that extends CSS with variables, nested rules, and more.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Responsive Design**: The app is designed to be responsive, with three screen sizes: small (less than `640px`), medium (`768px`), and large (`1024px`).
+- **Popup Timer**: A timer popup appears after 5 seconds of loading, which can be closed by clicking the button.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Screenshots
 
-## Learn More
+Small Sizes
+![image](https://github.com/user-attachments/assets/8707aeca-78a9-4a65-b487-e4118adde2aa)
+Medium Sizes
+![image](https://github.com/user-attachments/assets/8a0620ac-9a39-4f2a-ab8d-2e70539481b3)
+Large Sizes
+![image](https://github.com/user-attachments/assets/e9702cd8-6c81-455e-accb-6fffd9fc1b17)
 
-To learn more about Next.js, take a look at the following resources:
+PopUp
+![image](https://github.com/user-attachments/assets/d3efd25f-7603-49a6-ae8b-f8d3d1d5c185)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Why These Technologies?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+I used Tailwind CSS and Sass to demonstrate my proficiency in different CSS libraries, showcasing my ability to create responsive and modern designs. Additionally, the inclusion of TypeScript highlights my skills in building robust applications with typed JavaScript.
 
-## Deploy on Vercel
+## How to Run the Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/vpn-design-clone.git
+   cd vpn-design-clone
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit `http://localhost:3000`.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
